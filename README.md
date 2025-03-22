@@ -19,7 +19,7 @@ Soulager la gestion quotidienne de votre boîte de réception en:
 - Filtrage multi-critères (expéditeur, objet, contenu)
 - Système d'archivage intelligent par catégorie
 
-## 📋 Taxonomie de catégorisation
+## 📂 Taxonomie de catégorisation
 
 Le système utilise une hiérarchie organisée en catégories et sous-catégories:
 
@@ -54,14 +54,14 @@ Le système utilise une hiérarchie organisée en catégories et sous-catégorie
 - **ADMINISTRATIF**: Documents officiels et formulaires
 - **COMMANDES**: Achats personnels et suivi de livraison
 
-## 💻 Installation et utilisation
+## 🚀 Installation et utilisation
 
 1. Clonez ce dépôt : `git clone https://github.com/Eliassylla/email-categorization-system.git`
 2. Configurez l'accès à l'API Gmail selon les instructions dans la documentation
 3. Personnalisez les règles de catégorisation dans `keyword-database.js`
 4. Exécutez le script principal pour commencer la catégorisation
 
-## 📊 Algorithme de catégorisation
+## 🧠 Algorithme de catégorisation
 
 Le système utilise une approche basée sur des mots-clés et des expéditeurs connus pour affecter un score à chaque email. L'algorithme compare le contenu de l'email (sujet et corps) avec notre base de données de mots-clés, puis détermine la catégorie la plus pertinente en fonction des scores obtenus.
 
@@ -79,11 +79,11 @@ Le système utilise une approche basée sur des mots-clés et des expéditeurs c
 - `README.md`: Documentation principale
 - `Guide de catégorisation des emails par labels.md`: Guide détaillé avec exemples
 
-## 🔄 Intégration
+## 🤝 Intégration
 
 Ce système s'intègre parfaitement avec l'[Assistant Gmail MCP](https://github.com/Eliassylla/Assistant-Gmail-MCP) pour une expérience de gestion d'emails complète et automatisée.
 
-## 📈 Contribuer
+## 👥 Contribuer
 
 Les contributions sont les bienvenues! N'hésitez pas à proposer de nouvelles catégories, mots-clés ou améliorations via une pull request ou une issue.
 
